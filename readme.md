@@ -17,4 +17,4 @@ This script automates the process of downloading an embedded version of Python, 
 
 - `zip_file_with_password(file_path, password, output_zip_name)`: Compresses a file with password protection.
 - `create_exec_cradle(password, zip_name, py_file_name, output_file_name)`: Creates an execution cradle to run a password-protected zipped Python file.
-- `prompt_for_input(prompt_text)`: Prompts the user for input with the given text and returns the input.
+- `prompt_for_input(prompt_text)`: Prompts the user for input with the given text and returns the input. 
