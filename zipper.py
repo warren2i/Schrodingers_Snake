@@ -43,7 +43,7 @@ def create_exec_cradle(password, zip_name, py_file_name, output_file_name):
         for old_value, new_value in values_to_replace.items():
             file_contents = file_contents.replace(old_value, new_value)
 
-    with open(f'temp_{cradle_file_path}', "w") as file:
+    with open(f'{output_file_name}', "w") as file:
         file.write(file_contents)
 
 
@@ -110,7 +110,7 @@ def main():
 
     print(f'{target_dir} downloaded and unzipped successfully')
 
-    file_path = prompt_for_input("Enter the python file to be zipped: ")
+    file_path = prompt_for_input("Enter the python file to be zipped for execution in memory: ")
     password = prompt_for_input("Enter the password to use for zip protection: ")
 
     if os.path.exists(file_path):
@@ -120,6 +120,10 @@ def main():
 
         print('Creating Python cradle for execution')
         create_exec_cradle(password, output_zip_name, file_path, 'cradle_runner.py')
+        print('Cradle created successfully!')
+        # Move the output_zip_name and temp_cradle into the target_dir
+        shutil.move(output_zip_name, os.path.join(target_dir, output_zip_name))
+        shutil.move(f'cradle_runner.py', os.path.join(target_dir, 'cradle_runner.py'))
 
 
 if __name__ == '__main__':
