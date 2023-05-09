@@ -5,7 +5,7 @@ This script automates the process of downloading an embedded version of Python, 
 ## Requirements
 
 - Python 3.6 or higher
-- `pyminizip` library: Install using `pip install pyminizip`
+- `pyminizip` library: Install using `pip install pyminizip` 
 
 ## Usage
 
