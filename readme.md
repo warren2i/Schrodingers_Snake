@@ -1,4 +1,7 @@
-# ShroedingersSnake 
+# Schrödinger's Snake
+
+Schrödinger's Snake: Injecting uncertainty. You won't know what it's up to until you run it!
+
 
 ![alt text](https://github.com/warren2i/python_in-memory_zipobject/blob/master/img_snake.jpg?raw=true)
 
