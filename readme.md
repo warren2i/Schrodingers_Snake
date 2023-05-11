@@ -7,6 +7,10 @@ Schrödinger's Snake: Injecting uncertainty. You won't know what it's up to unti
 
 # Python Embedded Downloader and Zip Cradler
 
+To execute this proof of concept, we use the Python embedded package to run our sample malware code as a signed python.exe executable. This method takes advantage of the trust established by the signed executable, which can bypass certain security measures and make it difficult for antivirus programs to detect the malware.
+
+To further improve the stealthiness of the payload, we can load the DLL or py directly into memory using Python from a password protected zipfile, bypassing the need to ever write the DLL or py file to disk. This technique makes it more difficult for antivirus programs and other security tools to detect and analyze the payload.
+
 This script automates the process of downloading an embedded version of Python, zipping a specified Python file with password protection, and creating an execution "cradle" that runs the zipped Python file.
 
 ## Requirements
