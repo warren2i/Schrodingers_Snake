@@ -19,9 +19,9 @@ This script automates the process of downloading an embedded version of Python, 
 - `pyminizip` library: Install using `pip install pyminizip`  
 
 ## Usage
-1. git clone https://github.com/warren2i/python_in-memory_zipobject
-2. cd python_in-memory_zipobject
-3. pip install -r requirements.txt
+1. `git clone https://github.com/warren2i/python_in-memory_zipobject`
+2. `cd python_in-memory_zipobject`
+3. `pip install -r requirements.txt`
 4. Place dirty dll or .py file inside python_in-memory_zipobject dir 
 5. Run the script using the Python interpreter: `python zipper.py`
 6. Follow the prompts to download an embedded version of Python, zip a Python file with password protection, and create an execution cradle.
