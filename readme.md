@@ -1,3 +1,7 @@
+#ShroedingersSnake 
+
+![alt text](https://github.com/warren2i/python_in-memory_zipobject/blob/master/img_snake.jpg?raw=true)
+
 # Python Embedded Downloader and Zip Cradler
 
 This script automates the process of downloading an embedded version of Python, zipping a specified Python file with password protection, and creating an execution "cradle" that runs the zipped Python file.
