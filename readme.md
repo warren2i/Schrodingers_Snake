@@ -1,4 +1,4 @@
-#ShroedingersSnake 
+# ShroedingersSnake 
 
 ![alt text](https://github.com/warren2i/python_in-memory_zipobject/blob/master/img_snake.jpg?raw=true)
 
