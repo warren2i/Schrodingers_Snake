@@ -26,7 +26,7 @@ This script automates the process of downloading an embedded version of Python, 
 5. Run the script using the Python interpreter: `python zipper.py`
 6. Follow the prompts to download an embedded version of Python, zip a Python file with password protection, and create an execution cradle.
 7. A folder will be created containing everything needed to inject the dll or py file inside memory.
-
+8. move folder onto target machine and execute python.exe for interactive, or pythonw.exe for silent execution, pass the run.py file as an argument.  eg pythonw.exe run.py
 ## Functions
 
 - `zip_file_with_password(file_path, password, output_zip_name)`: Compresses a file with password protection.
